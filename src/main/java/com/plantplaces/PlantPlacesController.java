@@ -9,4 +9,14 @@ public class PlantPlacesController {
 	public String start() {
 		return "start";
 	}
+	
+	/**
+	 * * GHandle the / endpoint
+	 * @return
+	 */
+	@RequestMapping("/")
+	public String index() {
+		return "start";
+	}
+
 }
