@@ -77,3 +77,4 @@ local.properties
 .maven-wrapper*
 .mvnw*
 
+/target/
